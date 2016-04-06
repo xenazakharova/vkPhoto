@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black" >
+  
+    <android.support.v4.view.ViewPager
+        android:id="@+id/photoPager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="top"
+        android:background="@null" />
+
+    <RelativeLayout
+        android:id="@+id/infoRelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/photoPager"
+        android:paddingBottom="15dp"
+        android:background="@color/vk_transparent_black" >
+
+        <TextView
+            android:id="@+id/photoTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="10dp"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" 
+            android:textStyle="bold"/>
+        
+         <View
+             android:id="@+id/line"
+             android:layout_width="wrap_content"
+             android:layout_height="1dp"
+             android:layout_below="@+id/photoTitle"
+             android:background="#dbdbdb" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

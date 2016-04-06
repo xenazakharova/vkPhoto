@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ВК фото</string>
+    
+    <integer name="com_vk_sdk_AppId">5386098</integer> 
+    
+    <string name="sign_in_vk">Вход через ВК</string>
+    <string name="photo_viewing">Просмотр ВК фото</string>
+    <string name="logout">Logout</string>
+     
+    <string name="albums">Фотоальбомы</string>
+    
+    <string name="photos1">фотография</string>
+    <string name="photos2">фотографии</string>
+    <string name="photos3">фотографий</string>
+    
+    <string name="photos_getalbums">photos.getAlbums</string>
+    <string name="photos_get">photos.get</string>
+
+</resources>

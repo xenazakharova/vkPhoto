@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<item><layer-list>
+	     <item> 
+		    <shape>
+		        <solid android:color="@color/vk_light_gray" />
+		    </shape>
+		  </item>   
+          <item >
+              <bitmap android:gravity="center|left" android:src="@drawable/vk_logo_for_btn" />
+          </item>
+ </layer-list></item>
+</selector>

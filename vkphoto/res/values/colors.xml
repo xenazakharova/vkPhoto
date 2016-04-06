@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="vk_blue">#5181b8</color>
+    <color name="vk_light_gray">#f4f4f4</color>
+    <color name="vk_transparent_black">#44000000</color>
+</resources>
