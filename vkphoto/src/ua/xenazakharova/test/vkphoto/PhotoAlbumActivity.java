@@ -13,7 +13,6 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.Display;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -196,7 +195,7 @@ public class PhotoAlbumActivity extends Activity{
 			PhotoDataModel item = data.get(position);
 			
 			Picasso.with(context).load(data.get(position).getPhoto(3))
-				.resize((int)widthDevice/3, 0)//(int)(widthDevice/3*data.get(position).getRatio()))
+				.resize((int)widthDevice/3, 0)
 				.into(holder.image);
 			return row;
 		}

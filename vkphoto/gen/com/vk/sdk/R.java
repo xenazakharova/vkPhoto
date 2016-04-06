@@ -66,9 +66,9 @@ public final class R {
 		public static final int topBarLayout = 0x7f0a0019;
 	}
 	public static final class layout {
-		public static final int vk_captcha_dialog = 0x7f03000c;
-		public static final int vk_open_auth_dialog = 0x7f03000d;
-		public static final int vk_share_dialog = 0x7f03000e;
+		public static final int vk_captcha_dialog = 0x7f03000b;
+		public static final int vk_open_auth_dialog = 0x7f03000c;
+		public static final int vk_share_dialog = 0x7f03000d;
 	}
 	public static final class string {
 		public static final int vk_enter_captcha_text = 0x7f060001;

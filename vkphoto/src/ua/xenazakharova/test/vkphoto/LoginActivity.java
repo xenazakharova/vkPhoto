@@ -147,10 +147,6 @@ public class LoginActivity extends FragmentActivity {
                 public void onClick(View view) {
                 	Log.v("LOG_TAG", "TEST continue_button click");
                 	((LoginActivity) getActivity()).startPhotoAlbumsActivity();
-                	
-                	/*Intent intent = new Intent (getActivity(),AllPhotoAlbumsActivity.class);
-            		startActivity(intent);
-            		getActivity().finish();  */
                 }
             });
 

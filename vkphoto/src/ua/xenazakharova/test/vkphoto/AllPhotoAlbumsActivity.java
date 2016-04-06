@@ -51,8 +51,6 @@ public class AllPhotoAlbumsActivity extends Activity {
 
 	ArrayList<AlbumDataModel> albumsList = new ArrayList<AlbumDataModel>();
 	
-	private boolean isResumed = false;
-	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -83,8 +81,7 @@ public class AllPhotoAlbumsActivity extends Activity {
             public void onError(VKError error) {
                 super.onError(error);
             }
-        });
- 
+        }); 
 	}
 	
 	void albumsListParser(JSONObject json, final int id_user){
@@ -237,7 +234,6 @@ public class AllPhotoAlbumsActivity extends Activity {
 	@Override
     protected void onResume() {
         super.onResume();
-        isResumed = true;
         if (!VKSdk.isLoggedIn()) {
         	Intent intent = new Intent (AllPhotoAlbumsActivity.this,LoginActivity.class);
   			startActivity(intent);
@@ -245,9 +241,4 @@ public class AllPhotoAlbumsActivity extends Activity {
         }
      }
 	
-	 @Override
-	    protected void onPause() {
-	        isResumed = false;
-	        super.onPause();
-	  }
 }

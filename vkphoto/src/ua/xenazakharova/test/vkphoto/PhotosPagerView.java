@@ -17,13 +17,10 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.Window;
 import android.widget.ImageButton;
-import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 public class PhotosPagerView extends FragmentActivity {
-	
-    String LOG_TAG = "PhotosPagerViewLog";
 
     ViewPager phPager;
 	RelativeLayout infoRelativeLayout;
@@ -83,8 +80,7 @@ public class PhotosPagerView extends FragmentActivity {
 			
 			@Override
 			public void onPageScrolled(int arg0, float arg1, int arg2) {
-				// TODO Auto-generated method stub
-				
+				// TODO Auto-generated method stub				
 			}
 			
 			@Override

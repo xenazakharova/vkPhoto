@@ -5,15 +5,16 @@ import java.util.Calendar;
 import java.util.Date;
 
 public class PhotoDataModel implements Serializable {
-		 private int id;
-	     private String text;
-	     private Date date;
-	     private int width;
-	     private int height;
-	     private float ratio;
-	     private String photo_75;
-	     private String photo_130;
-	     private String photo_604;
+
+		private static final long serialVersionUID = 1L;
+		private int id;
+	    private String text;
+	    private Date date;
+	    private int width;
+	    private int height;
+	    private String photo_75;
+	    private String photo_130;
+	    private String photo_604;
 	     
 	    public int getId() {
 			return id;
@@ -31,23 +32,10 @@ public class PhotoDataModel implements Serializable {
 	    
 	    public String getDate() {
 	    	
-	    	//Date date_ = null;
-			Calendar calendar;
+	    	Calendar calendar;
 			String result = null;
 			  
-	 		/*if (date>0 ){
-		  		DateFormat formatter = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-				try {
-					dateStart = (Date)formatter.parse(start_event);
-					dateEnd = (Date)formatter.parse(end_event);
-						
-				} catch (ParseException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				} 
-		  		 
-	     	 }*/
-			if (date!=null){
+	 		if (date!=null){
 				calendar = Calendar.getInstance();
 				calendar.setTime(date);
 				

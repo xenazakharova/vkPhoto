@@ -28,12 +28,6 @@ public final class R {
         public static final int vk_white=0x7f040002;
     }
     public static final class dimen {
-        /** 
-         Example customization of dimensions originally defined in res/values/dimens.xml
-         (such as screen margins) for screens with more than 820dp of available width. This
-         would include 7" and 10" devices in landscape (~960dp and ~1280dp respectively).
-    
-         */
         public static final int activity_horizontal_margin=0x7f05000f;
         public static final int activity_vertical_margin=0x7f050010;
         public static final int album_info_height=0x7f050014;
@@ -115,17 +109,16 @@ public final class R {
         public static final int ab_photo=0x7f030001;
         public static final int activity_album_photos=0x7f030002;
         public static final int activity_albums_grid=0x7f030003;
-        public static final int activity_api_call=0x7f030004;
-        public static final int activity_login=0x7f030005;
-        public static final int activity_photos_pager=0x7f030006;
-        public static final int fragment_login=0x7f030007;
-        public static final int fragment_logout=0x7f030008;
-        public static final int fragment_photo_item=0x7f030009;
-        public static final int grid_item_image=0x7f03000a;
-        public static final int grid_item_layout=0x7f03000b;
-        public static final int vk_captcha_dialog=0x7f03000c;
-        public static final int vk_open_auth_dialog=0x7f03000d;
-        public static final int vk_share_dialog=0x7f03000e;
+        public static final int activity_login=0x7f030004;
+        public static final int activity_photos_pager=0x7f030005;
+        public static final int fragment_login=0x7f030006;
+        public static final int fragment_logout=0x7f030007;
+        public static final int fragment_photo_item=0x7f030008;
+        public static final int grid_item_image=0x7f030009;
+        public static final int grid_item_layout=0x7f03000a;
+        public static final int vk_captcha_dialog=0x7f03000b;
+        public static final int vk_open_auth_dialog=0x7f03000c;
+        public static final int vk_share_dialog=0x7f03000d;
     }
     public static final class menu {
         public static final int photo_album=0x7f090000;
