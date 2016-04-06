@@ -13,14 +13,12 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.Display;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.View.OnClickListener;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
@@ -32,12 +30,9 @@ import android.widget.TextView;
 
 import com.squareup.picasso.Picasso;
 import com.vk.sdk.VKSdk;
-import com.vk.sdk.api.VKApi;
-import com.vk.sdk.api.VKApiConst;
 import com.vk.sdk.api.VKError;
 import com.vk.sdk.api.VKParameters;
 import com.vk.sdk.api.VKRequest;
-import com.vk.sdk.api.VKRequest.VKRequestListener;
 import com.vk.sdk.api.VKResponse;
 
 public class AllPhotoAlbumsActivity extends Activity {
